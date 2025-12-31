@@ -1,0 +1,26 @@
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+*.exe
+
+# Editor files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+vector_add
+vector_add_opencl
+image_conv
+fir_filter
+matrix_mult
+*.ev72
